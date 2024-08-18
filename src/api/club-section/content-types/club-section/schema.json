@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "club_sections",
+  "info": {
+    "singularName": "club-section",
+    "pluralName": "club-sections",
+    "displayName": "ClubSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trainings": {
+      "type": "string"
+    },
+    "coach": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  }
+}

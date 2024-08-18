@@ -1,0 +1,36 @@
+{
+  "name": "euforia-api-model",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.25.8",
+    "@strapi/plugin-i18n": "4.25.8",
+    "@strapi/plugin-users-permissions": "4.25.8",
+    "@strapi/strapi": "4.25.8",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "df50af05-10f4-45b0-aa8f-568b417dbec9"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
