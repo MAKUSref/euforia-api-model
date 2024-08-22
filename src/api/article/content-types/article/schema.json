@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,7 +21,13 @@
     "dateTime": {
       "type": "datetime"
     },
-    "imgUrl": {
+    "imgUrlSmall": {
+      "type": "string"
+    },
+    "imgUrlMedium": {
+      "type": "string"
+    },
+    "imgUrlLarge": {
       "type": "string"
     }
   }
