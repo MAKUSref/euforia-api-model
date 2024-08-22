@@ -29,6 +29,11 @@
     },
     "imgUrlLarge": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
     }
   }
 }
