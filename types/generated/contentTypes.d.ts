@@ -806,7 +806,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     imgUrlSmall: Attribute.String;
     imgUrlMedium: Attribute.String;
     imgUrlLarge: Attribute.String;
-    slug: Attribute.UID<'api::article.article', 'title'>;
+    slug: Attribute.UID<'api::article.article', 'title'> & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
